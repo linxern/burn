@@ -9,7 +9,7 @@ body {
 }
 
 .box {
-  background-color: white;      /* boksen blir hvit */
+  background-color: blue;      /* boksen blir hvit */
   border: 2px solid black;      /* sort kant rundt */
   padding: 40px;
   width: 400px;                 /* fast bredde */
