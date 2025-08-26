@@ -1,17 +1,21 @@
 body {
-  background-color: #f0f0f0;    /* bakgrunn på siden */
-  display: flex;                /* bruk flexbox */
-  justify-content: center;      /* horisontalt midtstilt */
-  align-items: center;          /* vertikalt midtstilt */
-  height: 100vh;                /* full høyde av skjermen */
-  margin: 0;                    /* fjern standard margin */
+  background-color: #87ceeb;    /* himmelblå bakgrunn */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .box {
-  background-color: white;      /* boksen blir hvit */
-  border: 2px solid black;      /* sort kant rundt */
+  background-color: white;      /* tydelig hvit boks */
+  border: 3px solid black;      /* tykkere sort kant */
   padding: 40px;
-  width: 400px;                 /* fast bredde */
-  text-align: center;           /* midtstilt tekst */
+  width: 400px;
+  text-align: center;
+
+  /* litt ekstra pynt */
+  border-radius: 10px;          /* runde hjørner */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* skygge bak boksen */
 }
